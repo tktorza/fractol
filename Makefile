@@ -24,7 +24,7 @@ OBJ = $(SRC:%.c=%.o)
 
 WFLAGS = -Wall -Werror -Wextra
 
-CC = gcc
+CC = gcc -ldl -mlp64
 
 HEADERS = -IIncludes/
 
